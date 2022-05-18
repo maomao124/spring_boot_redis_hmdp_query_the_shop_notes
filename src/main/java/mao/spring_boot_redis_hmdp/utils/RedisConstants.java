@@ -20,4 +20,12 @@ public class RedisConstants
     public static final String FEED_KEY = "feed:";
     public static final String SHOP_GEO_KEY = "shop:geo:";
     public static final String USER_SIGN_KEY = "sign:";
+
+    public static final String BLOG_KEY = "blog:";
+    public static final String LOCK_BLOG_KEY = "lock:blog:";
+    public static final Long CACHE_BLOG_TTL = 10L;
+
+
+
+
 }

@@ -1,0 +1,114 @@
+2022-05-18 21:35:26.555 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:26.558 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:26.558 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:26.559 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:26.559 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:26.560 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:26.561 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:26.561 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:26.561 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:26.562 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:26.562 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:26.562 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:26.563 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:27.333 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:27.334 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:27.335 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:27.336 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:27.336 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:27.338 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:27.339 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:27.339 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:27.340 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:27.341 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:27.341 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:27.341 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:27.342 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:27.342 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:27.343 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:27.344 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:27.344 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:27.345 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:29.933 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:29.933 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:29.936 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:29.937 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:29.938 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:29.942 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:29.942 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:29.943 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:29.944 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:29.944 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:29.945 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:29.945 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:29.946 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:29.946 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:29.947 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:29.948 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:29.948 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:29.948 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:30.499 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:30.499 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:30.502 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:30.503 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:30.503 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:30.505 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:30.505 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:30.506 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:30.507 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:30.507 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:30.507 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:30.508 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:30.508 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:30.509 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:30.510 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:30.510 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:30.510 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:30.511 DEBUG 17060 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:30.973 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:30.973 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:30.975 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:30.976 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:30.976 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:30.977 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:30.978 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:30.978 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:30.979 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:30.980 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:30.980 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:30.981 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:30.981 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:30.981 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:30.982 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:30.982 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:30.983 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:30.983 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:31.490 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:31.490 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:31.492 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:31.492 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:31.493 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:31.494 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:31.494 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:31.494 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:31.495 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:31.495 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:31.495 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:31.496 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:31.496 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:31.496 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:31.497 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:31.497 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:31.497 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:31.498 DEBUG 17060 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:32.102 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:32.102 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:32.104 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:32.105 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:32.105 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:32.106 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:32.107 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:32.107 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:32.108 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:32.109 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:32.109 DEBUG 17060 --- [http-nio-8081-exec-5] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)

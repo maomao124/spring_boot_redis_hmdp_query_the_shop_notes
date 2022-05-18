@@ -67,7 +67,8 @@ public class BlogController
     }
 
     @GetMapping("/{id}")
-    public Result queryBlogById(@PathVariable("id") String id){
+    public Result queryBlogById(@PathVariable("id") String id)
+    {
         return blogService.queryBlogById(id);
     }
 }

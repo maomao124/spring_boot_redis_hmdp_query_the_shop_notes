@@ -1,0 +1,86 @@
+2022-05-18 21:36:25.571 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.BlogMapper.selectById         : ==> Parameters: 5(String)
+2022-05-18 21:36:25.575 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.BlogMapper.selectById         : <==      Total: 1
+2022-05-18 21:36:25.575 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:36:25.576 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:36:25.577 DEBUG 17060 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:36:29.179 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectById         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog WHERE id=?
+2022-05-18 21:36:29.180 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectById         : ==> Parameters: 5(String)
+2022-05-18 21:36:29.182 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectById         : <==      Total: 1
+2022-05-18 21:36:29.183 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:36:29.183 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:36:29.185 DEBUG 17060 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:45:03.834  INFO 17060 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-05-18 21:45:04.681  INFO 17060 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-05-18 21:45:04.724  INFO 17060 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-05-18 21:45:04.744  INFO 17060 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-18 21:45:04.747  INFO 17060 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-18 21:45:23.253  INFO 21680 --- [restartedMain] ootRedisHmdpQueryTheShopNotesApplication : Starting SpringBootRedisHmdpQueryTheShopNotesApplication using Java 16.0.2 on mao with PID 21680 (H:\程序\大三下期\spring_boot_redis_hmdp达人探店之查询探店笔记\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp达人探店之查询探店笔记)
+2022-05-18 21:45:23.254 DEBUG 21680 --- [restartedMain] ootRedisHmdpQueryTheShopNotesApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-18 21:45:23.254  INFO 21680 --- [restartedMain] ootRedisHmdpQueryTheShopNotesApplication : The following 1 profile is active: "dev"
+2022-05-18 21:45:23.290  INFO 21680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-18 21:45:23.290  INFO 21680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-18 21:45:24.039  INFO 21680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-18 21:45:24.041  INFO 21680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-18 21:45:24.062  INFO 21680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-18 21:45:24.548  INFO 21680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-18 21:45:24.555  INFO 21680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-18 21:45:24.555  INFO 21680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-18 21:45:24.621  INFO 21680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-18 21:45:24.621  INFO 21680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1331 ms
+2022-05-18 21:45:24.851  INFO 21680 --- [restartedMain] org.redisson.Version                     : Redisson 3.17.0
+2022-05-18 21:45:25.088  INFO 21680 --- [redisson-netty-2-22] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-18 21:45:25.101  INFO 21680 --- [redisson-netty-2-18] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-18 21:45:25.232  INFO 21680 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-18 21:45:25.326  INFO 21680 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-18 21:45:26.542  INFO 21680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-18 21:45:26.548  INFO 21680 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-18 21:45:26.648  INFO 21680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-18 21:45:26.650  INFO 21680 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-18 21:45:26.670  INFO 21680 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#50b42db3:0/SimpleConnection@1e8ce3f0 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 63281]
+2022-05-18 21:45:26.673  INFO 21680 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hmdp_exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-05-18 21:45:26.673  INFO 21680 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hmdp_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-05-18 21:45:26.720  INFO 21680 --- [restartedMain] ootRedisHmdpQueryTheShopNotesApplication : Started SpringBootRedisHmdpQueryTheShopNotesApplication in 3.789 seconds (JVM running for 4.379)
+2022-05-18 21:45:27.116  INFO 21680 --- [RMI TCP Connection(1)-172.28.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-18 21:45:27.116  INFO 21680 --- [RMI TCP Connection(1)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-18 21:45:27.118  INFO 21680 --- [RMI TCP Connection(1)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-18 21:45:36.214 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectById         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog WHERE id=?
+2022-05-18 21:45:36.234 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectById         : ==> Parameters: 5(String)
+2022-05-18 21:45:36.257 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.BlogMapper.selectById         : <==      Total: 1
+2022-05-18 21:45:36.457 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:45:36.458 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:45:36.459 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:45:39.612 DEBUG 21680 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:45:39.613 DEBUG 21680 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:45:39.615 DEBUG 21680 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:45:40.345 DEBUG 21680 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:45:40.346 DEBUG 21680 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:45:40.349 DEBUG 21680 --- [http-nio-8081-exec-4] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:45:40.822 DEBUG 21680 --- [http-nio-8081-exec-5] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:45:40.823 DEBUG 21680 --- [http-nio-8081-exec-5] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:45:40.825 DEBUG 21680 --- [http-nio-8081-exec-5] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:45:41.223 DEBUG 21680 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:45:41.223 DEBUG 21680 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:45:41.225 DEBUG 21680 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:45:41.529 DEBUG 21680 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:45:41.530 DEBUG 21680 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:45:41.531 DEBUG 21680 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:45:45.099 DEBUG 21680 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:45:45.100 DEBUG 21680 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:45:45.104 DEBUG 21680 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:46:10.044 DEBUG 21680 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:46:10.045 DEBUG 21680 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:46:10.048 DEBUG 21680 --- [http-nio-8081-exec-9] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:46:10.664 DEBUG 21680 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:46:10.664 DEBUG 21680 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:46:10.665 DEBUG 21680 --- [http-nio-8081-exec-10] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:46:11.202 DEBUG 21680 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:46:11.203 DEBUG 21680 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:46:11.206 DEBUG 21680 --- [http-nio-8081-exec-2] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:46:20.033 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:46:20.033 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:46:20.035 DEBUG 21680 --- [http-nio-8081-exec-1] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:47:22.577  INFO 21680 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-05-18 21:47:23.578  INFO 21680 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-05-18 21:47:23.610  INFO 21680 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-05-18 21:47:23.622  INFO 21680 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-18 21:47:23.625  INFO 21680 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

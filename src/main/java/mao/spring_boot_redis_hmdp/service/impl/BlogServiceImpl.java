@@ -9,11 +9,14 @@ import mao.spring_boot_redis_hmdp.entity.User;
 import mao.spring_boot_redis_hmdp.mapper.BlogMapper;
 import mao.spring_boot_redis_hmdp.service.IBlogService;
 import mao.spring_boot_redis_hmdp.service.IUserService;
+import mao.spring_boot_redis_hmdp.utils.RedisConstants;
+import mao.spring_boot_redis_hmdp.utils.RedisUtils;
 import mao.spring_boot_redis_hmdp.utils.SystemConstants;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 
 @Service("blogService")
@@ -22,6 +25,9 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
 
     @Resource
     private IUserService userService;
+
+    @Resource
+    private RedisUtils redisUtils;
 
     @Override
     public Result queryHotBlog(Integer current)
@@ -47,7 +53,12 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
     public Result queryBlogById(String id)
     {
         //查询
-        Blog blog = this.getById(id);
+        //Blog blog = this.getById(id);
+        Blog blog = redisUtils.query(RedisConstants.BLOG_KEY,
+                RedisConstants.LOCK_BLOG_KEY, id,
+                Blog.class, this::getById,
+                RedisConstants.CACHE_BLOG_TTL,
+                TimeUnit.MINUTES, 120);
         //判断是否存在
         if (blog == null)
         {

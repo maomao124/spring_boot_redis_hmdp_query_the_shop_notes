@@ -1,0 +1,109 @@
+2022-05-18 21:31:09.051  INFO 17060 --- [restartedMain] ootRedisHmdpQueryTheShopNotesApplication : Starting SpringBootRedisHmdpQueryTheShopNotesApplication using Java 16.0.2 on mao with PID 17060 (H:\程序\大三下期\spring_boot_redis_hmdp达人探店之查询探店笔记\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp达人探店之查询探店笔记)
+2022-05-18 21:31:09.052 DEBUG 17060 --- [restartedMain] ootRedisHmdpQueryTheShopNotesApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-18 21:31:09.053  INFO 17060 --- [restartedMain] ootRedisHmdpQueryTheShopNotesApplication : The following 1 profile is active: "dev"
+2022-05-18 21:31:09.110  INFO 17060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-18 21:31:09.110  INFO 17060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-18 21:31:10.075  INFO 17060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-18 21:31:10.078  INFO 17060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-18 21:31:10.105  INFO 17060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-05-18 21:31:10.625  INFO 17060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-18 21:31:10.634  INFO 17060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-18 21:31:10.634  INFO 17060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-18 21:31:10.712  INFO 17060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-18 21:31:10.712  INFO 17060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1601 ms
+2022-05-18 21:31:10.963  INFO 17060 --- [restartedMain] org.redisson.Version                     : Redisson 3.17.0
+2022-05-18 21:31:11.232  INFO 17060 --- [redisson-netty-2-13] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-18 21:31:11.242  INFO 17060 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-18 21:31:11.383  INFO 17060 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-18 21:31:11.489  INFO 17060 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-18 21:31:12.789  INFO 17060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-18 21:31:12.793  INFO 17060 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-18 21:31:12.897  INFO 17060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-18 21:31:12.899  INFO 17060 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-18 21:31:12.923  INFO 17060 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6b7d9e7e:0/SimpleConnection@72f67a52 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 51847]
+2022-05-18 21:31:12.926  INFO 17060 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hmdp_exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-05-18 21:31:12.926  INFO 17060 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hmdp_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-05-18 21:31:12.976  INFO 17060 --- [restartedMain] ootRedisHmdpQueryTheShopNotesApplication : Started SpringBootRedisHmdpQueryTheShopNotesApplication in 4.49 seconds (JVM running for 5.392)
+2022-05-18 21:31:13.148  INFO 17060 --- [RMI TCP Connection(2)-172.28.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-18 21:31:13.148  INFO 17060 --- [RMI TCP Connection(2)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-18 21:31:13.149  INFO 17060 --- [RMI TCP Connection(2)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-18 21:33:41.777  WARN 17060 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-05-18 21:33:52.118  WARN 17060 --- [http-nio-8081-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 158772
+2022-05-18 21:33:52.144 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:33:52.164 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:33:52.192 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:33:52.195 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:33:52.196 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:33:52.203 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:33:52.208 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:33:52.209 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:33:52.215 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:33:52.216 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:33:52.217 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:33:52.218 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:33:52.219 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:33:52.219 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:33:52.221 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:33:52.221 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:33:52.222 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:33:52.223 DEBUG 17060 --- [http-nio-8081-exec-3] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:14.956  WARN 17060 --- [http-nio-8081-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 82732
+2022-05-18 21:35:14.977 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:14.977 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:14.980 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:14.980 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:14.981 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:14.983 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:14.984 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:14.984 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:14.986 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:14.987 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:14.987 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:14.988 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:14.989 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:14.989 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:14.990 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:14.991 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:14.991 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:14.992 DEBUG 17060 --- [http-nio-8081-exec-6] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:24.815 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:24.815 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:24.818 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:24.818 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:24.818 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:24.820 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:24.821 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:24.821 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:24.823 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:24.824 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:24.824 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:24.829 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:24.831 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:24.831 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:24.832 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:24.832 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:24.833 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:24.833 DEBUG 17060 --- [http-nio-8081-exec-7] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:25.741 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:25.742 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:25.744 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:25.745 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:25.746 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
+2022-05-18 21:35:25.750 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.BlogMapper.selectPage         : <==      Total: 4
+2022-05-18 21:35:25.751 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:25.752 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:25.753 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:25.753 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:25.754 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==> Parameters: 2(Long)
+2022-05-18 21:35:25.755 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:25.755 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:25.756 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:25.757 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:25.757 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==>  Preparing: SELECT id,phone,password,nick_name,icon,create_time,update_time FROM tb_user WHERE id=?
+2022-05-18 21:35:25.758 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : ==> Parameters: 1(Long)
+2022-05-18 21:35:25.760 DEBUG 17060 --- [http-nio-8081-exec-8] m.s.mapper.UserMapper.selectById         : <==      Total: 1
+2022-05-18 21:35:26.545 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.m.BlogMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_blog
+2022-05-18 21:35:26.546 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.m.BlogMapper.selectPage_mpCount      : ==> Parameters: 
+2022-05-18 21:35:26.549 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.m.BlogMapper.selectPage_mpCount      : <==      Total: 1
+2022-05-18 21:35:26.550 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.BlogMapper.selectPage         : ==>  Preparing: SELECT id,shop_id,user_id,title,images,content,liked,comments,create_time,update_time FROM tb_blog ORDER BY liked DESC LIMIT ?
+2022-05-18 21:35:26.551 DEBUG 17060 --- [http-nio-8081-exec-9] m.s.mapper.BlogMapper.selectPage         : ==> Parameters: 10(Long)
